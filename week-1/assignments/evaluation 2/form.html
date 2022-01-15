@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web form</title>
+    <style>
+        body{
+            background-color: rgb(89, 238, 158);
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label> Your E-mail:<input type= "text" id = "email"/></label>
+        <br>
+        <label>Date <input type= "date" id ="date"/> </label>
+        <br>
+        <label>Your Comment</label>
+        <br>
+        <textarea rows="5" columns = "50"></textarea>
+        <br> <br>
+        <button type= "button" id= "btn" onclick= "myFunction()">Send your feedback</button>
+        <div id = "container"> </div>
+        <script>
+            function myFunction() {
+                alert("Your feedback is collected!")
+            }
+        </script>
+    </form>
+</body>
+</html>
