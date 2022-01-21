@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    This document contains a developed DTD for the xml file.
+    File name: activity5.xml        
+    Author name: Vaishali       Date: 20 January, 2022
+-->
+
+<!DOCTYPE Products 
+[
+   <!ELEMENT Products (product+)>
+   <!ELEMENT product (productName, manufacturer, description, price, productItems)>
+   <!ELEMENT productName (#PCDATA)>
+   <!ELEMENT manufacturer (#PCDATA)>
+   <!ELEMENT description (#PCDATA)>
+   <!ELEMENT prices (price, price, price)>
+   <!ELEMENT price (#PCDATA)>
+   <!ELEMENT productItems (#PCDATA)>
+]>
+<modified>
+<product>
+   <productName>Car Curiosity Basket</productName>
+   <manufacturer>&#8482; SJB Pet Boutique</manufacturer>
+   <description>Playtime morning, noon and night</description>
+   <price>USD$15.99</price>
+   <price>CAD$18.82</price>
+   <price>&#8364; 11.90 </price>
+   <productItems>4430, 6500, 4434</productItems>
+</product>
+
+<product>
+   <productName>Bike Curiosity Basket</productName>
+   <manufacturer>&#8482;SJB Pet Boutique</manufacturer>
+   <description>Playtime morning, noon and night</description>
+   <price>USD$19.99</price>
+   <price>CAD$12.82</price>
+   <price>&#8364; 20.90 </price>
+   <productItems>3476, 8967, 8876</productItems>
+</product>
+
+<product>
+   <productName>Truck Curiosity Basket</productName>
+   <manufacturer>&#8482;SJB Pet Boutique</manufacturer>
+   <description>Playtime morning, noon and night</description>
+   <price>USD$13.99</price>
+   <price>CAD$19.82</price>
+   <price>&#8364; 90.90 </price>
+   <productItems>9430, 9800, 4487</productItems>
+</product>
+</modified>

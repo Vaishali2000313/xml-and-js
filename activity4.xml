@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<!-- 
+    This document contains three prices for each product by using character and entities with CDATA.
+    File name: activity4.xml 
+    Author name: Vaishali    Date: 20 January, 2022
+-->
+<modified>
+<product>
+   <productName>Car Curiosity Basket</productName>
+   <manufacturer>&#8482; SJB Pet Boutique</manufacturer>
+   <description>Playtime morning, noon and night</description>
+   <price>USD$15.99</price>
+   <price>CAD$18.82</price>
+   <price>&#8364; 11.90 </price>
+   <productItems>4430, 6500, 4434</productItems>
+   <message><!CDATA[ For further information, please visit <our website> or call us on #905-111-2222 & +1-800-111-2222</message>
+</product>
+
+<product>
+   <productName>Bike Curiosity Basket</productName>
+   <manufacturer>&#8482;SJB Pet Boutique</manufacturer>
+   <description>Playtime morning, noon and night</description>
+   <price>USD$19.99</price>
+   <price>CAD$12.82</price>
+   <price>&#8364; 20.90 </price>
+   <productItems>3476, 8967, 8876</productItems>
+   <message><!CDATA[ For further information, please visit <our website> or call us on #905-111-2222 & +1-800-111-2222</message>
+</product>
+
+<product>
+   <productName>Truck Curiosity Basket</productName>
+   <manufacturer>&#8482;SJB Pet Boutique</manufacturer>
+   <description>Playtime morning, noon and night</description>
+   <price>USD$13.99</price>
+   <price>CAD$19.82</price>
+   <price>&#8364; 90.90 </price>
+   <productItems>9430, 9800, 4487</productItems>
+   <message><!CDATA[ For further information, please visit <our website> or call us on #905-111-2222 & +1-800-111-2222</message>
+</product>
+</modified>

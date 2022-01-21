@@ -1,0 +1,13 @@
+<? xml version = "1.0" encoding = "UTF-8" ?>
+<!-- 
+    This document contains the information regarding the business card of Joe Marini
+    File name: activity1.xml
+    Author name: Vaishali  Date: 20 January, 2022 
+-->
+<card>
+   <name>Joe Marini</name>
+   <phone type = "home">+1(415)555-1234</phone>
+   <phone type = "work">+1(800)555-9867</phone>
+   <phone type = "mobile">+1(510)555-1212</phone>
+   <email>joe@joe.com</email>
+</card>
