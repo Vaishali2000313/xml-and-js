@@ -1,40 +1,27 @@
-<? xml version = "1.0" encoding = "UTF-8" ?>
-<!-- 
-    This document contains the information for the collection of many business cards
-    File name: activity2.xml
-    Author name: Vaishali  Date: 20 January, 2022 
--->
-<many_cards>
-
-<card>
-   <name>Joe Marini</name>
-   <phone type = "home">+1(415)555-1234</phone>
-   <phone type = "work">+1(800)555-9867</phone>
-   <phone type = "mobile">+1(510)555-1212</phone>
-   <email>joe@joe.com</email>
-</card>
-
-<card>
-   <name>Joe Marini</name>
-   <phone type = "home">+1(415)555-1234</phone>
-   <phone type = "work">+1(800)555-9867</phone>
-   <phone type = "mobile">+1(510)555-1212</phone>
-   <email>joe@joe.com</email>
-</card>
-
-<card>
-   <name>Joe Marini</name>
-   <phone type = "home">+1(415)555-1234</phone>
-   <phone type = "work">+1(800)555-9867</phone>
-   <phone type = "mobile">+1(510)555-1212</phone>
-   <email>joe@joe.com</email>
-</card>
-
-<card>
-   <name>Joe Marini</name>
-   <phone type = "home">+1(415)555-1234</phone>
-   <phone type = "work">+1(800)555-9867</phone>
-   <phone type = "mobile">+1(510)555-1212</phone>
-   <email>joe@joe.com</email>
-</card>
-<many_cards>
+<?xml version = "1.0" encoding = "UTF-8"?>
+<eml: employeeList xmlns:eml = "urn:corp:list" 
+                   xmlns:emp = "urn:corp:emp"
+                   xmlns:dep = "urn:corp:dep"
+>
+<employeeList>
+  <personList>
+    <empID>E0000001</empID>
+    <name>Sales</name>
+    <name>John Smith</name>
+  </personList>
+  <personList>
+    <empID>E0000002</empID>
+    <name>Development</name>
+    <name>Ichiro Tanaka</name>
+  </personList>
+  <personList>
+    <empID>E0000003</empID>
+    <name>Development</name>
+    <name>Jiro Suzuki</name>
+  </personList>
+  <personList>
+    <empID>E0000004</empID>
+    <name>Administrative</name>
+    <name>Saburo Takahashi</name>
+  </personList>
+</employeeList>

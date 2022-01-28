@@ -1,0 +1,19 @@
+<!DOCTYPE Products
+ [
+  <!ELEMENT products (product+)>
+  <!ELEMENT product (productName, manufacturer, description , prices, productItems)>
+  <!ATTLIST product sku ID #required 
+    createdAt CDATA #required
+    shippable CDATA #required>
+  <!ELEMENT productName #PCDATA >
+  <!ATTLIST manufacturer id CDATA #required>
+  <!ELEMENT manufacturer #PCDATA>
+  <!ELEMENT description #PCDATA>
+  <!ELEMENT price #PCDATA>
+  <!ELEMENT productItems #PCDATA>
+  <!ELEMENT prices (price,price,price)>
+ ]>
+ <!--
+     Name : Vaishali
+     Student Number: N01495940
+ -->

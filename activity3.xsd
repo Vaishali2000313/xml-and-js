@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<xs:schema xml:xs = "F:\SEMESTER 2\XML & Javascript\assignments\week 3\activity3.xml">
+  <xs:element name = "products">
+    <xs:complexType>
+      <xs:sequence>
+        <xs ELEMENT name = "product" type = "productType" minOccurs = "unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+   </xs:element>
+<xs:complexType name = "productType">
+  <xs:sequence>
+    <xs:element name = "productName" type = "xs:string">
+    <xs:element name = "manufacturer" type = "xs:string">
+    <xs:element name = "prices" type = "price">
+    <xs:element name = "productItems" type = "xs:string">
+    <xs:element name = "description" type = "xs:string">
+  <xs:sequence>
+  <xs:attribute name = "sku" type ="xs: string">
+  <xs:attribute name = "createdAt" type = "xs: dateTime">
+  <xs:attribute name = "shippable" type = "xs:boolean">
+<xs:complexType>
+<xs:complexType name = "Price">
+  <xs:sequence>
+    <xs:element name = "Price" type = "xs:string">
+  <xs:sequence>
+</xs:complexType>
+<xs:complexType>
+  <xs:attribute name = "id" type = "string">
+</xs:complexType>
+
+<!--
+    Name : Vaishali
+    Student Number: N01495940
+    -->
+
+
