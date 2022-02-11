@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ACTIVITY</title>
+        <script language="JavaScript">
+            function logResults(event) {
+                event.preventDefault();
+                const form = event.target;
+                const name = form.name.value;
+                const age = form.age.value;
+                const inputElements = form.language;
+                let languagesKnown = "";
+                for (let i = 0; inputElements[i]; ++i) {
+                    if (inputElements[i].checked) {
+                        languagesKnown += inputElements[i].value + " ";
+                    }
+                }
+                console.log(`Name: ${name}`);
+                console.log(`Age: ${age}`);
+                console.log(`languages Known: ${languagesKnown}`);
+            }
+        </script>
+    </head>
+
+    <body>
+        <form onSubmit="logResults(event)" action="" method="get">
+
+            <label for="name">Enter Your Name:</label>
+            <input type="text" name="name" value="" /><br>
+
+            <p>Choose your age:</p>
+            <input type="radio" name="age" id="age1" value="25" />
+            <label for="age1">16-25</label><br>
+            <input type="radio" name="age" id="age2" value="50" />
+            <label for="age2">26-50</label><br>
+            <input type="radio" name="age" id="age3" value="75" />
+            <label for="age3">51-75</label><br>
+            <input type="radio" name="age" id="age4" value="100" />
+            <label for="age4">76-100</label>
+
+            <p>Known languages: </p>
+            <input type="checkbox" name="language" id="JAVA" value="JAVA" />
+            <label for="JAVA">JAVA</label><br>
+            <input type="checkbox" name="language" id="Python" value="Python" />
+            <label for="Python">Python</label><br>
+            <input type="checkbox" name="language" id="HTML" value="HTML" />
+            <label for="HTML">HTML</label><br>
+            <input type="checkbox" name="language" id="CSS" value="CSS" />
+            <label for="CSS">CSS</label><br>
+            <input type="checkbox" name="language" id="SQL" value="SQL" />
+            <label for="SQL">SQL</label><br>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+
+</html>
