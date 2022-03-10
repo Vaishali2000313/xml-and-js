@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cars>
+  <Car id="1" availability="Yes">
+    <Name>Tesla</Name>
+    <Founded>2003</Founded>
+    <Country>USA</Country>
+    <StartingPrice>70,000</StartingPrice>
+  </Car>
+  <Car id="2" availability="No">
+    <Name>BMW</Name>
+    <Founded>1916</Founded>
+    <Country>Germany</Country>
+    <StartingPrice>77,000</StartingPrice>
+  </Car>
+  <Car id="3" availability="No">
+    <Name>Ferrari</Name>
+    <Founded>1947</Founded>
+    <Country>Italy</Country>
+    <StartingPrice>293,000</StartingPrice>
+  </Car>
+  <Car id="4" availability="No">
+    <Name>Ford</Name>
+    <Founded>1903</Founded>
+    <Country>USA</Country>
+    <StartingPrice>65,000</StartingPrice>
+  </Car>
+  <Car id="5" availability="Yes">
+    <Name>Porsche</Name>
+    <Founded>1931</Founded>
+    <Country>Germany</Country>
+    <StartingPrice>123,400</StartingPrice>
+  </Car>
+  <Car id="6" availability="Yes">
+    <Name>Honda</Name>
+    <Founded>1948</Founded>
+    <Country>Japan</Country>
+    <StartingPrice>26,000</StartingPrice>
+  </Car>
+  <Car id="7" availability="Yes">
+    <Name>Lamborghini</Name>
+    <Founded>1963</Founded>
+    <Country>Italy</Country>
+    <StartingPrice>80,000</StartingPrice>
+  </Car>
+  <Car id="8" availability="No">
+    <Name>Toyota</Name>
+    <Founded>1937</Founded>
+    <Country>Japan</Country>
+    <StartingPrice>26,000</StartingPrice>
+  </Car>
+  <Car id="9" availability="Yes">
+    <Name>Bentley</Name>
+    <Founded>1919</Founded>
+    <Country>England</Country>
+    <StartingPrice>80,000</StartingPrice>
+  </Car>
+  <Car id="10" availability="Yes">
+    <Name>Audi</Name>
+    <Founded>1909</Founded>
+    <Country>Germany</Country>
+    <StartingPrice>54,000</StartingPrice>
+  </Car>
+  <Car id="11" availability="No">
+    <Name>Jeep</Name>
+    <Founded>1941</Founded>
+    <Country>USA</Country>
+    <StartingPrice>50,000</StartingPrice>
+  </Car>
+  <Car id="12" availability="No">
+    <Name>Subaru</Name>
+    <Founded>1953</Founded>
+    <Country>Japan</Country>
+    <StartingPrice>90,000</StartingPrice>
+  </Car>
+  <Car id="13" availability="Yes">
+    <Name>Cadillac</Name>
+    <Founded>1902</Founded>
+    <Country>USA</Country>
+    <StartingPrice>87,000</StartingPrice>
+  </Car>
+  <Car id="14" availability="No">
+    <Name>Hyundai</Name>
+    <Founded>1967</Founded>
+    <Country>South Korea</Country>
+    <StartingPrice>58,000</StartingPrice>
+  </Car>
+  <Car id="15" availability="Yes">
+    <Name>Jaguar</Name>
+    <Founded>1922</Founded>
+    <Country>England</Country>
+    <StartingPrice>80,000</StartingPrice>
+  </Car>
+  <Car id="16" availability="Yes">
+    <Name>Mazda</Name>
+    <Founded>1920</Founded>
+    <Country>Japan</Country>
+    <StartingPrice>67,000</StartingPrice>
+  </Car>
+  <Car id="17" availability="No">
+    <Name>Lexus</Name>
+    <Founded>1983</Founded>
+    <Country>Japan</Country>
+    <StartingPrice>65,000</StartingPrice>
+  </Car>
+  <Car id="18" availability="Yes">
+    <Name>Volkswagen</Name>
+    <Founded>1937</Founded>
+    <Country>Germany</Country>
+    <StartingPrice>80,000</StartingPrice>
+  </Car>
+  <Car id="19" availability="Yes">
+    <Name>Volvo</Name>
+    <Founded>1927</Founded>
+    <Country>Sweden</Country>
+    <StartingPrice>60,000</StartingPrice>
+  </Car>
+  <Car id="20" availability="No">
+    <Name>Mercedes</Name>
+    <Founded>1926</Founded>
+    <Country>Germany</Country>
+    <StartingPrice>90,000</StartingPrice>
+  </Car>
+  <Car id="21" availability="Yes">
+    <Name>Infiniti</Name>
+    <Founded>1989</Founded>
+    <Country>Hong Kong</Country>
+    <StartingPrice>89,000</StartingPrice>
+  </Car>
+  <Car id="22" availability="No">
+    <Name>Suzuki</Name>
+    <Founded>1909</Founded>
+    <Country>Japan</Country>
+    <StartingPrice>70,000</StartingPrice>
+  </Car>
+  <Car id="23" availability="No">
+    <Name>Fiat</Name>
+    <Founded>1899</Founded>
+    <Country>Italy</Country>
+    <StartingPrice>70,000</StartingPrice>
+  </Car>
+  <Car id="24" availability="Yes">
+    <Name>Kia</Name>
+    <Founded>1944</Founded>
+    <Country>South Korea</Country>
+    <StartingPrice>78,000</StartingPrice>
+  </Car>
+  <Car id="25" availability="No">
+    <Name>Chevrolet</Name>
+    <Founded>1911</Founded>
+    <Country>USA</Country>
+    <StartingPrice>80,000</StartingPrice>
+  </Car>
+</Cars>

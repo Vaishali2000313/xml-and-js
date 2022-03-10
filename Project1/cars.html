@@ -1,0 +1,78 @@
+<html>
+
+<head>
+  <title>Wheels Sale</title>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      background-color: rgb(233, 196, 128);
+      font-family: cursive;
+    }
+
+    th,
+    td {
+      padding: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <span style="color: #aa6f73;">
+    <h2>Welcome to Wheels Sale!!!</h2>
+  </span>
+  <h3>Here we present the list of Cars ready for you. </h3>
+  <h4>Search for your Favourite ones here!</h4>
+  <form onreset="onreset()" onsubmit="onsubmit(event)">
+    Search for Car Name <br>
+    <input type="text" name="TextBox" id="searchItem" placeholder="Type your search here..." /> <br>
+    <span style="color: #aa6f73;"></span>
+    Country of origin :
+    </span>
+    <br>
+    <input type="checkbox" id="USA" name="country" value="USA">
+    <label for="USA">USA</label>
+    <br>
+    <input type="checkbox" id="Germany" name="country" value="Germany">
+    <label for="Germany">Germany</label>
+    <br>
+    <input type="checkbox" id="Italy" name="country" value="Italy">
+    <label for="Italy">Italy</label>
+    <br>
+    <input type="checkbox" id="Japan" name="country" value="Japan">
+    <label for="Japan">Japan</label>
+    <br>
+    <input type="checkbox" id="South Korea" name="country" value="South Korea">
+    <label for="South Korea">South Korea</label>
+    <br>
+    <input type="checkbox" id="Sweden" name="country" value="Sweden">
+    <label for="Sweden">Sweden</label>
+    <br>
+    <span style="color: #aa6f73;">  
+      Check for availability: 
+    </span> <br>
+    <input type="radio" id="Yes" name="availability" value="Y" required> Available <br />
+    <input type="radio" id="No" name="availability" value="p">Not-Available <br />
+    <br />
+    <button type="submit">Search</button>
+    <br>
+    <br>
+    <button type="reset">Reset</button>
+    <br>
+  </form>
+  <table id="MyTable">
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Founded</th>
+      <th>Country</th>
+      <th>Availability in Store</th>
+      <th>Price in CAD</th>
+    </tr>
+  </table>
+  <script type="text/javascript" src="cars.js"></script>
+</body>
+
+</html>
