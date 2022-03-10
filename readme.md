@@ -1,4 +1,3 @@
-## Lab 3
 ## Name: Vaishali
 ## Student Number: N01495940
 
