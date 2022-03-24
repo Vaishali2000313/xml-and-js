@@ -1,0 +1,16 @@
+{
+    "name": "activity",
+    "version": "1.0.0",
+    "description": "",
+    "main": "employees.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js",
+      "dev": "nodemon server.js"
+    },
+    "author": "Udit Pandya",
+    "license": "ISC",
+    "devDependencies": {
+      "nodemon": "^2.0.15"
+    }
+  }
