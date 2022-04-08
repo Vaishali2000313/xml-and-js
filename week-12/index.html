@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data</title>
+</head>
+
+<body>
+    <script type="text/javascript" src="./index.js"></script>
+    <form onreset="resetTable()">
+        ID:<input type="text" name="value" id="input-term" placeholder="Enter value" /><br><br>
+        First Name:<input type="text" name="first" /><br><br>
+        Last Name:<input type="text" name="last" /><br><br>
+        Email:<input type="text" name="mail" /><br><br>
+        Gender:
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="none" name="gender" value="None" checked="checked">
+        <label for="none">None</label><br><br>
+        IP Address:<input type="text" name="ip_address" /><br><br>
+        Contact Number:<input type="text" name="contact" /><br><br>
+        City:<input type="text" name="city" /><br><br>
+        State:<input type="text" name="state" /><br><br>
+        Postal Code:<input type="text" name="postal_code" /><br><br>
+        university:<input type="text" name="university" /><br><br>
+        <button type="submit">Apply filters</button><br><br>
+        <button type="reset">Reset</button>
+    </form>
+    <table id="table-main">
+        <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Gender</th>
+            <th>IP Address</th>
+            <th>Contact Number</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Postal Code</th>
+            <th>University</th>
+        </tr>
+    </table>
+</body>
+
+</html>
