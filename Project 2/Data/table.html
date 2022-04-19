@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Table</title>
+    </head>
+    <body>
+        <script type="text/javascript" src="./bundle.js"></script>
+        <h1>Contractors Summary Table</h1>
+        <form id="myForm" >
+            <input type="text" name="input" id="input-value-term" placeholder="Enter value."/>
+            <select name="filters" id="filter">
+                <option value="none">None</option>
+                <option value="id">Id</option>
+                <option value="contractor_name">Name</option>
+                <option value="email">Email</option>
+                <option value="role">Role</option>
+                <option value="construction_code">Construction Code</option>
+                <option value="department">Department</option>
+                <option value="card_number">Card Number</option>
+            </select>
+            <fieldset>                
+                <legend>Status</legend>
+                <input type="radio" name="status" value="none"/>
+                <label for="none">None</label>                            
+                <input type="radio" name="status" value="active"/>
+                <label for="active">Active</label>                                
+                <input type="radio" name="status" value="inactive"/>
+                <label for="inactive">Inactive</label>       
+            </fieldset>
+            <fieldset>                
+                <legend>Card Type</legend>
+                <input type="checkbox" name="card" value="mastercard"/>
+                <label for="mastercard">Mastercard</label>                                
+                <input type="checkbox" name="card" value="americanexpress"/>
+                <label for="americanexpress">American Express</label>       
+            </fieldset>
+            <fieldset>
+                <legend>Cost</legend>
+                <input type="text" name="input_cost_from" placeholder="0"/>
+                to
+                <input type="text" name="input_cost_to" placeholder="100"/>
+            </fieldset>
+            <label>Material Type :</label>
+            <select name="filters_material" id="filter_material">
+                <option value="All">All</option>
+                <option value="Glass">Glass</option>
+                <option value="Aluminum">Aluminum</option>
+                <option value="Granite">Granite</option>
+                <option value="Brass">Brass</option>
+                <option value="Wood">Wood</option>
+                <option value="Vinyl">Vinyl</option>
+                <option value="Plexiglass">Plexiglass</option>
+                <option value="Stone">Stone</option>
+                <option value="Rubber">Rubber</option>
+                <option value="Steel">Steel</option>
+                <option value="Plastic">Plastic</option>
+            </select>
+            <br/>
+            <input type="submit" value="Filter"/>
+            <input type="reset" value="Reset"/>
+        </form>
+        <table>
+            <thead>
+              <th>Id</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Is Active</th>
+              <th>Department</th>
+              <th>Role</th>
+              <th>Material Name</th>
+              <th>Cost</th>
+              <th>Construction Code</th>
+              <th>Card Type</th>
+              <th>Number</th>
+            </thead>
+            <tbody id="table-body"></tbody>
+          </table>
+    </body>
+</html>
