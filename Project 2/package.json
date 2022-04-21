@@ -7,7 +7,7 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "build" : "browserify main.js -o dist/bundle.js"
     },
-    "author": "Vaishali",
+    "author": "Vaishali Sharma",
     "license": "ISC",
     "dependencies": {
       "browserify": "^17.0.0"

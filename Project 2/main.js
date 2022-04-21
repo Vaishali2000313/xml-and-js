@@ -1,4 +1,4 @@
-const { getAllContractors, getContractorById } = require("./api/controller/contractor");
+const { getAllContractors, getContractorById } = require("./api/contract");
 
 const renderTable = (data) => {
   const tableBody = document.getElementById("table-body");
